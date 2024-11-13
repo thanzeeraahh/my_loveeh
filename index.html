@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find your love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="demo1">
+        <h1>who is your love??</h1>
+        <input type="text" placeholder="who you love most" id="inp">
+        <button onclick="display()">click</button>
+
+    </div>
+   
+    <script>
+        function display(){
+            var text=document.getElementById("inp").value.trim().toLowerCase();
+            
+        
+            if(text==="thanzeera"){
+                alert("Congratulations!!you find your love");
+            } else {
+                alert("Error Occurred");
+            }
+        }
+    </script>
+</body>
+</html>

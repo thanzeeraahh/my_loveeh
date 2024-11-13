@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(239, 92, 239);
+
+}
+.demo1{
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top:15%;
+}
+button{
+    font-family: 'Courier New', Courier, monospace;
+    color: deeppink;
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+}
